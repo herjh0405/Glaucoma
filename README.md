@@ -6,4 +6,4 @@
 
    - 기존의 OLR 보다 RNN 이 성능이 더 좋음을 확인
    
-- **논문 리뷰** [file](https://github.com/herjh0405/Glaucoma/blob/master/Paper_review/(2019)%20Visual%20Field%20prediction%20using%20Recurrent%20Neural%20Network.md)
+- 참고 논문 리뷰-박정례 박사님 [file](https://github.com/herjh0405/Glaucoma/blob/master/Paper_review/(2019)%20Visual%20Field%20prediction%20using%20Recurrent%20Neural%20Network.md)
