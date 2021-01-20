@@ -3,5 +3,5 @@
 
 **1. 선행 연구 논문 이해**  
 - **Visual Field prediction using Recurrent Neural Network** [link](https://doi.org/10.1038/s41598-019-44852-6) 
-(Park, K., Kim, J., & Lee, J. (2019). Visual Field Prediction using Recurrent Neural Network. *Scientific Reports*, *9*(1), 1–12.)
+(Park, K., Kim, J., & Lee, J. (2019). *Scientific Reports*, *9*(1), 1–12.)
    - 기존의 OLR 보다 RNN 이 성능이 더 좋음을 확인
