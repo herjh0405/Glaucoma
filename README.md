@@ -19,4 +19,4 @@
 **4. Linear Regression Model** (2021.01.28 ~ 2021.02.03) 
    - 이전 논문에서 시행하였던 선형회귀 모델 구현 [file](http://localhost:8888/notebooks/github/Glaucoma/002.Linear_Regression.ipynb)
       - 환자의 ID와 원하는 검진값을 입력하면 화면에 띄워주는 함수 생성
-         - OD에 관해서만 하였고 OS는 추후에 조금 더 고민할 예정 
+         - OD에 관해서만 하였고 OS는 추후에 조금 더 고민할 예정, THV도 보여줄 것
