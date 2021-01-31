@@ -11,7 +11,6 @@
    - 부산소재지 ㄷ병원과 ㅂ병원의 데이터 통일화 [data](https://github.com/herjh0405/Glaucoma/blob/master/sample2.csv)
       - 데이터 유출의 위험 때문에 차트번호 -> 랜덤화, 생년월일 -> 검사 당시 연령, 이름 -> 삭제
    
-**3. 데이터 전처리&LinearRegrssion Model** (2021.01.21 ~ 2021.02.03) 
-   - 이상치 데이터 시각화로 체크 (Violinplot) [file](https://github.com/herjh0405/Glaucoma/blob/master/001.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%B2%98%EB%A6%AC.ipynb)
+**3. Data Visualization** (2021.01.21 ~ 2021.02.03) 
+   - 이상치 데이터 시각화로 체크 (Violinplot) [file](https://github.com/herjh0405/Glaucoma/blob/master/001.Data_PreProcessing%26Visualization.ipynb)
       - 26번과 35번 데이터가 맹점으로써 없는 것을 확인
-   - 이전 논문에서 시행했던 LinearRegrission Model 시행
