@@ -18,14 +18,16 @@
          - PDP, TDP는 P-value에 관한 것이므로 우선 PDV, THV, TDV를 먼저 살펴본다. 그 중에서도 THV를 먼저 살펴본다.
             - THV는 기계에서 환자가 반응한 가장 sensitive한 시표의 밝기
             - TDV는 THV - 일반인들의 평균
-            - PDV는 TDV + Overall sensitivity, ex) TDV의 같은 값이라도 시야의 위치에 따라 다를 수 있음, 센터가 중요
+            - PDV는 TDV + Overall sensitivity
+               - TDV의 같은 값이라도 시야의 위치에 따라 다를 수 있음, 센터가 중요
             - 이외 정보 [file](https://github.com/herjh0405/Glaucoma/blob/master/Information/%EC%A7%84%EB%8B%A8.md)
 
 **4. Linear Regression Model** (2021.01.28 ~ 2021.02.03) 
    - 이전 논문에서 시행하였던 선형회귀 모델 구현 [file](http://localhost:8888/notebooks/github/Glaucoma/002.Linear_Regression.ipynb)
       - 환자의 ID와 원하는 검진값을 입력하면 화면에 띄워주는 함수 생성
-      - 검사 횟수가 너무 적으면 예측의 의미가 없을 것 : 최소 검사 횟수를 정하자
      
 **5. FeedBack 적용** (2021.02.04 ~ )
    - POSTECH 논문 참고 후 G-SVM 모델에서 사용한 ACC 참고 [file](https://github.com/herjh0405/Glaucoma/blob/master/Information/%EB%85%B9%EB%82%B4%EC%9E%A5%20%EC%A7%84%EB%8B%A8%EB%AA%A8%ED%98%95%20%EA%B0%9C%EB%B0%9C%20%EC%97%B0%EA%B5%AC.pdf)
-   - 
+   - THV에서 주위의 값들과 다른 추이를 보이는 3개의 point 확인해보기
+      - 실제값과 비교해서 오차 구해보기 (RMSE, MSE)
+   - 검사 횟수가 너무 적으면 예측의 의미가 없을 것 : 최소 검사 횟수를 정하자
