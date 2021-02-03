@@ -14,7 +14,7 @@
 **3. Data Visualization** (2021.01.21 ~ 2021.01.27) 
    - 이상치 데이터 시각화로 체크 (Violinplot) [file](https://github.com/herjh0405/Glaucoma/blob/master/001.Data_PreProcessing%26Visualization.ipynb)
       - THV를 제외한 나머지 검진에서 26번과 35번 데이터가 맹점으로써 없는 것을 확인
-      - 특이 데이터는 추후 박사님과 논의 예정
+      - 특이 데이터는 박사님과 논의
          - PDP, TDP는 P-value에 관한 것이므로 우선 PDV, THV, TDV를 먼저 살펴본다. 그 중에서도 THV를 먼저 살펴본다.
             - THV는 기계에서 환자가 반응한 가장 sensitive한 시표의 밝기
             - TDV는 THV - 일반인들의 평균
@@ -29,5 +29,5 @@
 **5. FeedBack 적용** (2021.02.04 ~ )
    - POSTECH 논문 참고 후 G-SVM 모델에서 사용한 ACC 참고 [file](https://github.com/herjh0405/Glaucoma/blob/master/Information/%EB%85%B9%EB%82%B4%EC%9E%A5%20%EC%A7%84%EB%8B%A8%EB%AA%A8%ED%98%95%20%EA%B0%9C%EB%B0%9C%20%EC%97%B0%EA%B5%AC.pdf)
    - THV에서 주위의 값들과 다른 추이를 보이는 3개의 point 확인해보기
-      - 실제값과 비교해서 오차 구해보기 (RMSE, MSE)
    - 검사 횟수가 너무 적으면 예측의 의미가 없을 것 : 최소 검사 횟수를 정하자
+   - 실제값과 예측값 비교해서 오차 구해보기 (RMSE, MSE)
