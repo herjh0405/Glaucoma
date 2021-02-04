@@ -11,7 +11,7 @@
    - 부산소재지 ㄷ병원과 ㅂ병원의 데이터 통일화 [data](https://github.com/herjh0405/Glaucoma/blob/master/sample2.csv)
       - 데이터 유출의 위험 때문에 차트번호 -> 랜덤화, 생년월일 -> 검사 당시 연령, 이름 -> 삭제
    
-**3. Data PreProcessing&Visualization.ipynb** (2021.01.21 ~ 2021.01.27) 
+**3. Data PreProcessing & Visualization** (2021.01.21 ~ 2021.01.27) 
    - 이상치 데이터 시각화로 체크 (Violinplot) [file](https://github.com/herjh0405/Glaucoma/blob/master/001.Data_PreProcessing%26Visualization.ipynb)
       - THV를 제외한 나머지 검진에서 26번과 35번 데이터가 맹점으로써 없는 것을 확인
       - 특이 데이터는 박사님과 논의
