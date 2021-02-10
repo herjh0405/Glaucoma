@@ -33,6 +33,8 @@
 **5. FeedBack 적용** (2021.02.04 ~ )
    - POSTECH 논문 참고 후 G-SVM 모델에서 사용한 ACC 참고 [file](https://github.com/herjh0405/Glaucoma/blob/master/Information/%EB%85%B9%EB%82%B4%EC%9E%A5%20%EC%A7%84%EB%8B%A8%EB%AA%A8%ED%98%95%20%EA%B0%9C%EB%B0%9C%20%EC%97%B0%EA%B5%AC.pdf)
    - THV에서 특이 추이를 보이는 3개의 point 확인해보기
-      - 26, 35번은 맹점이라 제대로 측정이 이루어지지 않았고, 31번은 THV, TDV 비교결과 값이 잘못 입력 되어보임
+      - 26, 35번은 맹점 데이터, 31번은 THV, TDV 비교결과 값이 잘못 입력 되어보임
+         - 일반인들의 평균을 구해서 THV값 새로 구함
    - 검사 횟수가 너무 적으면 예측의 의미가 없을 것 : 최소 검사 횟수를 정하자
+      - 최소 4회의 검진은 이루어져야 한다고 가정
    - 실제값과 예측값 비교해서 오차 구해보기 (RMSE, MSE)
